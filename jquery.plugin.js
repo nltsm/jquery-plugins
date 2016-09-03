@@ -30,12 +30,12 @@
 	/**
 	 * 
 	 */
-	Slider.prototype.pluginFunc = function () {
+	Plugin.prototype.pluginFunc = function () {
 		
 	};
 
 
-	$.fn.slider = function (param) {
+	$.fn.plugin = function (param) {
 		if ( methods[param] ) {
 			return methods[param].apply( this, Array.prototype.slice.call( arguments, 1 ) );
 		}
